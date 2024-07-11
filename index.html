@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer - The Beautiful Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Soccer - The Beautiful Game</h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#highlights">Highlights</a></li>
+                <li><a href="#get-started">Get Started</a></li>
+                <li><a href="#interactive">Interactive</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="overview">
+        <h2>Game Overview</h2>
+        <p>Soccer, also known as football, is a popular sport played by two teams of eleven players with a spherical ball. It is played by 250 million players in over 200 countries, making it the world's most popular sport. The game is played on a rectangular field with a goal at each end. The objective is to score by moving the ball beyond the goal line into the opposing goal.</p>
+    </section>
+
+    <section id="highlights">
+        <h2>Game Highlights</h2>
+        <p>Soccer has produced numerous memorable moments, iconic players, and significant tournaments. Here are a few highlights:</p>
+        <ul>
+            <li>FIFA World Cup: The most prestigious tournament in the world, held every four years.</li>
+            <li>UEFA Champions League: An annual club competition for the top European teams.</li>
+            <li>Iconic Players: Pelé, Diego Maradona, Lionel Messi, and Cristiano Ronaldo.</li>
+        </ul>
+        <p>Key Statistics:</p>
+        <ul>
+            <li>Most goals in a calendar year: Lionel Messi (91 goals in 2012).</li>
+            <li>Most World Cup wins: Brazil (5 times).</li>
+        </ul>
+    </section>
+
+    <section id="get-started">
+        <h2>How to Get Started</h2>
+        <p>Getting started with soccer is simple. Here are the basic steps:</p>
+        <ol>
+            <li>Equipment: All you need is a soccer ball and a pair of cleats.</li>
+            <li>Rules: Familiarize yourself with the basic rules of the game.</li>
+            <li>Practice: Find a local team or practice on your own in a park or field.</li>
+            <li>Watch and Learn: Watch professional games to understand tactics and techniques.</li>
+        </ol>
+        <p>Beginner Tips:</p>
+        <ul>
+            <li>Focus on basic skills like passing, dribbling, and shooting.</li>
+            <li>Build your fitness with regular running and conditioning exercises.</li>
+            <li>Join a local club or team to gain experience and improve your skills.</li>
+        </ul>
+    </section>
+
+    <section id="interactive">
+        <h2>Interactive Element</h2>
+        <p>Test your knowledge with our current affairs quiz!</p>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. Who is the current president of the United States?</p>
+                <input type="radio" name="q1" value="a" id="q1a">
+                <label for="q1a">Joe Biden</label><br>
+                <input type="radio" name="q1" value="b" id="q1b">
+                <label for="q1b">Donald Trump</label><br>
+                <input type="radio" name="q1" value="c" id="q1c">
+                <label for="q1c">Barack Obama</label><br>
+                <input type="radio" name="q1" value="d" id="q1d">
+                <label for="q1d">George W. Bush</label>
+            </div>
+            <div class="question">
+                <p>2. What is the capital of France?</p>
+                <input type="radio" name="q2" value="a" id="q2a">
+                <label for="q2a">Paris</label><br>
+                <input type="radio" name="q2" value="b" id="q2b">
+                <label for="q2b">London</label><br>
+                <input type="radio" name="q2" value="c" id="q2c">
+                <label for="q2c">Berlin</label><br>
+                <input type="radio" name="q2" value="d" id="q2d">
+                <label for="q2d">Madrid</label>
+            </div>
+            <div class="question">
+                <p>3. Which company developed the COVID-19 vaccine named 'Comirnaty'?</p>
+                <input type="radio" name="q3" value="a" id="q3a">
+                <label for="q3a">Moderna</label><br>
+                <input type="radio" name="q3" value="b" id="q3b">
+                <label for="q3b">Pfizer-BioNTech</label><br>
+                <input type="radio" name="q3" value="c" id="q3c">
+                <label for="q3c">AstraZeneca</label><br>
+                <input type="radio" name="q3" value="d" id="q3d">
+                <label for="q3d">Johnson & Johnson</label>
+            </div>
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+        </form>
+        <div id="result"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Soccer - The Beautiful Game. All rights reserved.</p>
+        <p><a href="https://www.fifa.com">Official Game Website</a> | <a href="https://www.reddit.com/r/soccer">Forums</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
